@@ -56,6 +56,7 @@ android/*.iml
 android/app/*.iml
 android/.idea/
 android/gradle.properties.local
+android/app/.cxx
 
 # iOS
 ios/build/
