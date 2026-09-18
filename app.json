@@ -1,4 +1,26 @@
 {
   "name": "app",
-  "slug": "app"
+  "displayName": "ASEB",
+  "expo": {
+    "name": "ASEB",
+    "slug": "aseb",
+    "version": "0.0.1",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "bg.aseb.app",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "bg.aseb.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1E6FD9"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font"
+    ]
+  }
 }
